@@ -139,6 +139,6 @@ d = derivative(f, 2.0)
 println("f(x) = 3*x + sin(x)^2  => derivative at x=2.0 is ", d)
 
 # Another example
-g(x) = x^3 + 2*x
+g(x) = x^3 + exp(x)
 d2 = derivative(g, 1.5)
-println("g(x) = x^3 + 2*x => derivative at x=1.5 is ", d2)
+println("g(x) = x^3 + e^x => derivative at x=1.5 is ", d2)
